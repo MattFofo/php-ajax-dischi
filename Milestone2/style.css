@@ -1,0 +1,21 @@
+:root {
+   --primary: rgb(30,45,59);
+   --secondary: rgb(46,58,70);
+}
+
+
+header {
+   background-color: rgb(46,58,70);
+}
+.fa-brands.fa-spotify {
+  font-size: 3rem;
+  color: #1ED760;
+}
+
+.bg_primary {
+   background-color: var(--primary);
+}
+
+.bg_secondary {
+   background-color: var(--secondary);
+}

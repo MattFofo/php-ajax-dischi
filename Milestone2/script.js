@@ -1,4 +1,4 @@
-new Vue({
+const app = new Vue({
    el: '#app',
    data() {
       return {
@@ -8,7 +8,7 @@ new Vue({
    created() {
       axios.get('http://localhost/php-ajax-dischi/api.php')
       .then((response) => {
-        this.arrCards = response.data.response;
+        this.arrCards = response.data.arr_dischi;
       //   this.arrCardsFiltered = this.arrCards;
       })
       .catch(() => {
